@@ -1,0 +1,16 @@
+name: DayCycles
+version: 3.2.0
+main: yoft.DayCycles.DayCycles
+commands:
+  newday:
+    description: Set the time to a new day.
+    aliases: newday
+    usage: /newday
+  newnight:
+    description: Set the time to a new night.
+    aliases: newnight
+    usage: /newnight
+  setdays:
+    description: Set the number of days.
+    aliases: setdays
+    usage: /setdays [days]
